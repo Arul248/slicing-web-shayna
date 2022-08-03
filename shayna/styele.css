@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #e5e5e5;
+}
+/* navbar */
+.navbar .navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #150544;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-link {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5a6772;
+  margin-right: 15px;
+}
+.navbar .nav-link.active {
+  font-weight: 500;
+  color: #150544;
+}
+.navbar-nav .tombol {
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  padding: 9px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background-color: #150544;
+}
+
+/* tittle */
+.container .tittle {
+  margin-top: 60px;
+}
+.container.bagian-2 {
+  margin-bottom: 400px;
+}
+.bagian-3 .p2 {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #150544;
+}
+.tittle .tittle-list {
+  text-align: center;
+}
+.tittle-list h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #150544;
+  line-height: 72px;
+}
+.tittle-list p {
+  color: #5a6772;
+  font-size: 18px;
+}
+
+/* icon */
+.container-icon {
+  position: relative;
+}
+.container-icon .union1 {
+  position: absolute;
+  opacity: 0.3;
+  transform: rotate(-1.36deg);
+  top: -80px;
+  left: -50px;
+}
+.container .col-icon {
+  margin: auto;
+}
+.icon .kartu {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  position: relative;
+  margin: 40px 20px;
+}
+.kartu .list-icon {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.kartu img {
+  display: inline-block;
+}
+.kartu h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #150544;
+}
+.kartu p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #5a6772;
+}
+
+/* card */
+.container-fluid.bg {
+  height: 567px;
+  background-color: #e7f6ff;
+  padding: 20px;
+}
+.bg .section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -200px;
+  margin-bottom: 80px;
+}
+.bg .section .card-1 {
+  position: relative;
+  width: 320px;
+  height: 500px;
+  background: #fff;
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+  margin-right: 40px;
+  padding: 0 15px;
+}
+.bg .section .card-2 {
+  position: relative;
+  margin-top: -50px;
+  width: 320px;
+  height: 550px;
+  background: #fff;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+  border: 2px solid #150544;
+  overflow: hidden;
+}
+.card-1 .dollar p,
+.card-2 .dollar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150544;
+}
+.card-1 .dollar span,
+.card-2 .dollar span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 78px;
+  color: #150544;
+}
+.card-1 .list-check {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.list-check img {
+  float: left;
+  margin-right: 10px;
+}
+.list-check p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card-1 .tombol-card1,
+.card-2 .tombol-card2 {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  font-weight: 500;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 400px;
+  color: #fff;
+  background-color: #6552ff;
+}
+.card-2 .tombol-card2 {
+  top: 450px;
+  background-color: #150544;
+}
+.card-2 h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  background-color: #150544;
+  padding: 8px 0;
+}
+.card-2 .dollar,
+.card-2 .list-check {
+  padding: 0 15px;
+}
+
+/* bg2 */
+.container-fluid.bg2 {
+  height: 576px;
+  background: #150544;
+  padding: 120px 0 0 0;
+  overflow: hidden;
+}
+.bg2 .row-bg2 {
+  justify-content: center;
+}
+.bg2 .bg2-text {
+  position: relative;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  line-height: 54px;
+  margin: auto;
+}
+
+.bg2 .bg2-text::before {
+  content: '"';
+  display: block;
+  font-style: italic;
+  font-size: 288px;
+  font-weight: 400;
+  color: #6552ff;
+  position: absolute;
+  left: -70px;
+  top: 65px;
+}
+.bg2 .row-profil {
+  margin-top: 70px;
+}
+.row-profil .col-profil {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.col-profil .union {
+  position: absolute;
+  top: -300px;
+  left: -320px;
+  opacity: 0.5;
+  transform: rotate(20.94deg);
+}
+.col-profil h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins", sans;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.col-profil p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "poppins", sans;
+  line-height: 24px;
+  color: #aba6bb;
+}
